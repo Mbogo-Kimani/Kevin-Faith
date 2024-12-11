@@ -16,7 +16,7 @@ body {
 /* Landing section */
 .landing {
     position: relative;
-    color: white;
+    color: gold;
 }
 
 .carousel {
@@ -65,6 +65,7 @@ body {
 
 .welcome-message{
     margin-bottom: 50px;
+    
 }
 
 .welcome-message h1 {
