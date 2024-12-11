@@ -145,8 +145,12 @@ body {
 footer {
     background-color: #5D4037;
     color: gold;
-    padding: 10px 0;
+    padding: 10px 0px;
     font-size: 1rem;
+}
+
+.kim{
+    margin-top: 8px;
 }
 
 /* Table Container */
@@ -190,6 +194,19 @@ tr:nth-child(even) {
 
 tr:hover {
     background-color: #f1f1f1;
+}
+
+.love-icon{
+    margin-bottom: -5px;
+    width: 20px;
+}
+
+a{
+    color: #ddd;
+}
+
+a:hover{
+    color: #25D366;
 }
 
 /* Responsive Design */
