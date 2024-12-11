@@ -148,6 +148,80 @@ footer {
     font-size: 1rem;
 }
 
+/* Table Container */
+.table-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+.Role{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.work, .data {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.work {
+    background-color: #333;
+    color: #fff;
+}
+
+.data {
+    background-color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    td {
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .table-container {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .welcome-message h1 {
